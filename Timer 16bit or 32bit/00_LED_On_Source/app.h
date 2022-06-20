@@ -1,0 +1,18 @@
+#ifndef APP_H_
+#define APP_H_
+
+#include "sam.h"
+#include "definitions.h"
+
+
+//////////////////////////////////////////////////////////////////////////
+// Function Prototypes
+//////////////////////////////////////////////////////////////////////////
+
+// initialize your application
+void AppInit(void);
+
+// run the main program		
+void AppRun(void);
+
+#endif /* APP_H_ */
